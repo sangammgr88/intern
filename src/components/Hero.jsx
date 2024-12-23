@@ -16,7 +16,7 @@ const Hero = () => {
     <div className='flex'>
       <div className='p-40 -mt-56'>
         <p className='text-blue-600 font-bold'>✈ • Explore the wonderful indonesia!</p>
-        <h1 className='font-extrabold text-5xl mt-2'>Liburan & nikmati <br />
+        <h1 className='font-extrabold text-6xl mt-2'>Liburan & nikmati
 tempat baru di <br />
 indonesia  ️🏝</h1>
         <p className='mt-5'>Destinize membuat kamu selalu update terkait tempat liburan <br /> baru di Indonesia dengan mengikuti perkembangan para <br /> influencer di sosial media ✨</p>

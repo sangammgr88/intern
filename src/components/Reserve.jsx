@@ -40,56 +40,54 @@ const Reserve = () => {
         </div>
         </div>
       </div>
-      <div className="max-w-sm mx-auto rounded-lg shadow-md overflow-hidden">
+      <div className="max-w-sm mx-auto rounded-lg shadow-md overflow-hidden bg-white">
       {/* Image Section */}
       <div>
-        <img className="w-full h-48 object-cover" src={re1}  alt="" />
+        <img className="w-full h-48 object-cover" src={re1} alt="Destination" />
       </div>
 
       {/* Details Section */}
       <div className="p-4">
+        {/* Title */}
         <h3 className="text-xl font-semibold text-gray-800 flex items-center">
           Liburan ke Bali <span className="ml-2">🚗</span>
         </h3>
-        <p className="text-gray-500 text-sm">
-          14–29 Juni   |   by Shandika
-        </p>
+        <p className="text-gray-500 text-sm mt-1">14–29 Juni | by Shandika</p>
 
         {/* Icons Section */}
-<div className='flex gap-8 mt-3'>
-  <div><FaLeaf />  </div>
-  <div><IoMapOutline />  </div>
-  <div><FaTelegramPlane />
-  </div>
-</div>
-<div className='flex gap-4 mt-3'>
-  <div className='mt-2'><HiOutlineBuildingOffice2 />
-  </div>
-  <div><h1>12 Orang pergi bersama</h1></div>
-  <div className='mt-2 ml-8'><FaRegHeart />
-  </div>
-</div>
+        <div className="flex gap-6 mt-3 text-gray-500">
+          <div className="flex items-center"><FaLeaf /></div>
+          <div className="flex items-center"><IoMapOutline /></div>
+          <div className="flex items-center"><FaTelegramPlane /></div>
+        </div>
+
+        {/* Additional Info Section */}
+        <div className="flex items-center gap-4 mt-4 text-gray-500">
+          <HiOutlineBuildingOffice2 className="text-lg" />
+          <p className="flex-grow text-sm">12 Orang pergi bersama</p>
+          <FaRegHeart className="text-lg text-gray-400" />
+        </div>
 
         {/* Progress Section */}
-        <div className="flex items-center mt-4 bg-gray-100 rounded-lg p-2">
+        <div className="flex items-center mt-6 bg-gray-100 rounded-lg p-3 static">
           <img
             src={flag}
             alt="Flag"
-            className="w-6 h-6 rounded-full"
+            className="w-8 h-8 rounded-full object-cover"
           />
-          <div className="ml-2 flex-grow">
+          <div className="ml-3 flex-grow">
             <p className="text-gray-800 text-sm font-medium">Jelajah Indonesia</p>
-            <div className="w-full bg-gray-200 rounded-full h-2 mt-1">
+            <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
               <div
                 className="bg-blue-500 h-2 rounded-full"
-                style={{ width: "40%" }}
+                style={{ width: '40%' }}
               ></div>
             </div>
           </div>
-          <p className="ml-2 text-sm text-blue-500 font-medium">40% completed</p>
+          <p className="ml-3 text-sm text-blue-500 font-medium">40% completed</p>
         </div>
       </div>
-    </div>
+      </div>
       </div>
     </div>
   )

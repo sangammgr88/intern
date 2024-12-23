@@ -1,4 +1,5 @@
 import Destination from "./components/Destination";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Reserve from "./components/Reserve";
@@ -13,6 +14,7 @@ function App() {
   <Destination/>
   <Reserve/>
   <Review/>
+  <Footer/>
  </div>
   );
 }

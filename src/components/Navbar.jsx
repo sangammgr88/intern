@@ -20,14 +20,14 @@ const Navbar = () => {
       <div className="flex items-center border border-gray-400 gap-2 rounded-lg w-auto bg-slate-200 px-4 py-2 shadow-sm hover:shadow-md focus-within:ring-2 focus-within:ring-blue-500 transition">
   <CiSearch className="text-gray-600 text-xl" />
   <input 
-    className="w-96 h-6 bg-slate-200 focus:outline-none placeholder-gray-500 text-gray-800"
+    className="w-96 h-6 bg-slate-200 focus:outline-none placeholder-gray-500 text-gray-800 rounded-2xl"
     type="text"
     placeholder="Search"
   />
 </div>
       <div className='flex gap-2 text-slate-600'>
       <TbWorld className='mt-1'/>
-        <h1>Nepal</h1>
+        <h1> Bahasa Indonesia</h1>
         <IoMdArrowDropdown className='mt-1' />
 
       </div>
