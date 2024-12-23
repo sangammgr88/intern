@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="flex items-center border border-gray-400 gap-2 rounded-lg w-auto bg-slate-200 px-4 py-2 shadow-sm hover:shadow-md focus-within:ring-2 focus-within:ring-blue-500 transition">
   <CiSearch className="text-gray-600 text-xl" />
   <input 
-    className="w-96 h-6 bg-slate-200 focus:outline-none placeholder-gray-500 text-gray-800 rounded-2xl"
+    className="w-96 h-6 bg-slate-200 focus:outline-none placeholder-gray-500 text-gray-800"
     type="text"
     placeholder="Search"
   />
