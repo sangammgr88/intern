@@ -12,12 +12,12 @@ import { FaRegHeart } from "react-icons/fa";
 
 const Reserve = () => {
   return (
-    <div className="p-5 lg:p-40 gap-60">
+    <div className="mt-28 px-4 sm:px-6">
       {/* Header Section */}
       <h1 className="text-blue-700 font-bold text-sm lg:text-lg">
         RESERVASI TEMPAT
       </h1>
-      <div className="flex flex-col lg:flex-row gap-10 lg:gap-52 mt-5">
+      <div className="flex flex-col sm:flex-row sm:justify-between mt-5">
         {/* Left Section */}
         <div>
           <h1 className="text-2xl lg:text-4xl font-bold">
@@ -76,8 +76,9 @@ const Reserve = () => {
           </div>
         </div>
 
-        <div className="w-full max-w-md mx-auto lg:mx-0 rounded-lg shadow-md overflow-hidden bg-white">
-          <img className="w-full h-48 object-cover" src={re1} alt="Destination" />
+        {/* Right Section (Image and Information) */}
+        <div className="w-full max-w-md mx-auto lg:mx-0 rounded-lg shadow-md overflow-hidden bg-white mt-6 sm:mt-0">
+          <img className="w-full h-48 object-cover sm:h-60 lg:h-48" src={re1} alt="Destination" />
           <div className="p-4">
             <h3 className="text-lg lg:text-xl font-semibold text-gray-800 flex items-center">
               Liburan ke Bali <span className="ml-2">🚗</span>

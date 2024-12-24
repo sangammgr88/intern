@@ -8,7 +8,7 @@ import Review from "./components/Review";
 
 function App() {
   return (
- <div>
+ <div className="lg:px-32 sm:px-0">
   <Navbar/>
   <Hero/>
   <Destination/>

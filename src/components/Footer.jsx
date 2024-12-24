@@ -7,7 +7,7 @@ import { IoIosPrint } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <div className='px-8 py-12 sm:px-16 lg:px-40'>
+    <div className='mt-48 px-4 sm:px-6'>
       <div className='flex flex-col sm:flex-row sm:justify-between gap-8'>
         {/* Left Section */}
         <div className='flex flex-col'>
@@ -16,7 +16,7 @@ const Footer = () => {
           <p className='text-sm text-slate-600 mb-4'>
             Destinize adalah website atau layanan aplikasi yang membantu kamu
             memilih atau merekomendasikan tempat yang dijuluki ‘hidden gems’ agar
-            lebih dikenal dan ramai. Baca Selengkapnya
+            lebih dikenal dan ramai. <span className='text-blue-500 font-bold'>Baca Selengkapnya</span>
           </p>
           <p className='flex gap-2 mt-4 text-slate-600'>
             <FaPhoneAlt className='mt-1' /> 0851-5616-2840
@@ -79,7 +79,7 @@ const Footer = () => {
         <div>
           <h1>© 2021-2022, All Rights Reserved</h1>
         </div>
-        <div className='flex gap-8 sm:gap-14 mt-4 sm:mt-0'>
+        <div className='lg:flex lg:gap-8 sm:gap-14 mt-4 sm:mt-0'>
           <p>Tentang Kami</p>
           <p>Kontak</p>
           <p>Privasi & policy</p>
