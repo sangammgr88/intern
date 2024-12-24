@@ -36,14 +36,28 @@ const Hero = () => {
           <img className='w-full lg:w-[900px] lg:h-[750px] object-cover' src={hero} alt="Hero Image" />
         </div>
       </div>
-      
-      <div className='lg:flex  lg:justify-between lg:gap-6 ml-10 mt-8'>
-        <img className='h-[144.9px] w-[144.9px] mt-8 sm:ml-7' src={image1} alt="Image 1" />
-        <img className='h-[122.61px] w-[192.67px] mt-12' src={image2} alt="Image 2" />
-        <img className='h-[180.57px] w-[268.63px] mt-4' src={image3} alt="Image 3" />
-        <img className='h-[35.67px] w-[180.57px] mt-24' src={image4} alt="Image 4" />
-        <img className='h-[23.41px] w-[104.78px] mt-24' src={image5} alt="Image 5" />
-      </div>
+
+      <div className='flex justify-center lg:justify-end lg:-mt-36'>
+  <img className='w-full lg:w-[900px] lg:h-[750px] object-cover' src={hero} alt="Hero Image" />
+</div>
+
+<div className='lg:grid lg:grid-cols-2 lg:gap-6 gap-4 sm:grid sm:grid-cols-3 sm:gap-4 ml-10 mt-8'>
+  <div className='lg:h-[144.9px] lg:w-[144.9px] w-[90px] h-[80px] mt-8 sm:ml-7'>
+    <img src={image1} alt="Image 1" />
+  </div>
+  <div className='lg:h-[122.61px] lg:w-[192.67px] w-[120px] h-[110px] mt-12'>
+    <img src={image2} alt="Image 2" />
+  </div>
+  <div className='lg:h-[170px] lg:w-[260px] -mt-3'>
+    <img src={image3} alt="Image 3" />
+  </div>
+  <div className='h-[35.67px] w-[180.57px] mt-24'>
+    <img src={image4} alt="Image 4" />
+  </div>
+  <div className='h-[23.41px] w-[104.78px] mt-24'>
+    <img src={image5} alt="Image 5" />
+  </div>
+</div>
     </div>
   );
 }

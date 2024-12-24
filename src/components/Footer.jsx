@@ -7,7 +7,7 @@ import { IoIosPrint } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <div className='mt-48 px-4 sm:px-6'>
+    <div className='mt-48 px-4 sm:px-6 mb-6'>
       <div className='flex flex-col sm:flex-row sm:justify-between gap-8'>
         {/* Left Section */}
         <div className='flex flex-col'>

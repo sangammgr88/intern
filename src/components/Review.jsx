@@ -6,7 +6,7 @@ import picture3 from '../assets/picture3.jpg';
 
 const Review = () => {
   return (
-    <div className='mt-48 px-4 sm:px-6'>
+    <div className='lg:mt-48  px-4  sm:px-6 mt-28'>
       <div className='text-center'>
         <h1 className='text-blue-700'>TESTIMONIAL DESTINIZE</h1>
         <h1 className='text-4xl font-bold'>💬 • Apa Kata Mereka Tentang Kami</h1>
