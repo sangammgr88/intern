@@ -36,23 +36,25 @@ const Hero = () => {
           <img className='w-full lg:w-[900px] lg:h-[750px] object-cover' src={hero} alt="Hero Image" />
         </div>
       </div>
-<div className='lg:grid lg:grid-cols-2 lg:gap-6 gap-4 sm:grid sm:grid-cols-3 sm:gap-4 ml-10 mt-8'>
-  <div className='lg:h-[144.9px] lg:w-[144.9px] w-[90px] h-[80px] mt-8 sm:ml-7'>
+      {/*img*/}
+      <div className='flex flex-wrap lg:flex-nowrap gap-x-4 gap-y-4 lg:gap-x-16 mt-8'>
+  <div className='h-[72.45px] w-[72.45px] sm:h-[100px] sm:w-[100px] lg:h-[144.9px] lg:w-[144.9px] mt-4 sm:mt-6 lg:mt-8'>
     <img src={image1} alt="Image 1" />
   </div>
-  <div className='lg:h-[122.61px] lg:w-[192.67px] w-[120px] h-[110px] mt-12'>
+  <div className='h-[61.3px] w-[96.33px] sm:h-[80px] sm:w-[120px] lg:h-[122.61px] lg:w-[192.67px] mt-6 sm:mt-8 lg:mt-12'>
     <img src={image2} alt="Image 2" />
   </div>
-  <div className='lg:h-[170px] lg:w-[260px] -mt-3'>
+  <div className='h-[85px] w-[130px] sm:h-[120px] sm:w-[180px] lg:h-[170px] lg:w-[260px] -mt-1 sm:-mt-2 lg:-mt-3'>
     <img src={image3} alt="Image 3" />
   </div>
-  <div className='h-[35.67px] w-[180.57px] mt-24'>
+  <div className='h-[17.835px] w-[90.285px] sm:h-[25px] sm:w-[130px] lg:h-[35.67px] lg:w-[180.57px] mt-12 sm:mt-16 lg:mt-24'>
     <img src={image4} alt="Image 4" />
   </div>
-  <div className='h-[23.41px] w-[104.78px] mt-24'>
+  <div className='h-[11.705px] w-[52.39px] sm:h-[15px] sm:w-[70px] lg:h-[23.41px] lg:w-[104.78px] mt-12 sm:mt-16 lg:mt-24'>
     <img src={image5} alt="Image 5" />
   </div>
 </div>
+
     </div>
   );
 }
