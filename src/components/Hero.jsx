@@ -36,11 +36,6 @@ const Hero = () => {
           <img className='w-full lg:w-[900px] lg:h-[750px] object-cover' src={hero} alt="Hero Image" />
         </div>
       </div>
-
-      <div className='flex justify-center lg:justify-end lg:-mt-36'>
-  <img className='w-full lg:w-[900px] lg:h-[750px] object-cover' src={hero} alt="Hero Image" />
-</div>
-
 <div className='lg:grid lg:grid-cols-2 lg:gap-6 gap-4 sm:grid sm:grid-cols-3 sm:gap-4 ml-10 mt-8'>
   <div className='lg:h-[144.9px] lg:w-[144.9px] w-[90px] h-[80px] mt-8 sm:ml-7'>
     <img src={image1} alt="Image 1" />
